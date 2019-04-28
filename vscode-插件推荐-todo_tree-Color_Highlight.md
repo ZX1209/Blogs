@@ -24,7 +24,7 @@
 
 ![1555919899292](Resources/Pictures/1555919899292.png)
 
-![1555919976435](Resources/Pictures/1555919976435.png)
+![1556465617906](./Resources/Pictures/1556465617906.png)
 
 使用感觉瞬间就提升了.其他的todo hightlight或者是bookmarks简直弱爆了啊...
 
@@ -57,28 +57,33 @@
     "todo-tree.customHighlight": {
         "todo": {
             "background": "yellow",
-            "rulerColour": "yellow"
+            "rulerColour": "yellow",
+            "iconColour": "yellow"
         },
         "FIXME": {
             "background": "red",
             "icon": "beaker",
             "rulerColour": "red",
+            "iconColour": "red",
         },
         "tag": {
             "background": "blue",
             "icon": "tag",
             "rulerColour": "blue",
+            "iconColour": "blue",
             "rulerLane": "full"
         },
         "done": {
             "background": "green",
             "icon": "issue-closed",
             "rulerColour": "green",
+            "iconColour": "green",
         },
         "note": {
             "background": "#f90",
             "icon": "note",
             "rulerColour": "#f90",
+            "iconColour ": "#f90"
         }
     }
 ```
