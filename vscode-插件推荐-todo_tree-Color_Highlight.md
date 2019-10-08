@@ -28,25 +28,22 @@
 
 使用感觉瞬间就提升了.其他的todo hightlight或者是bookmarks简直弱爆了啊...
 
-这种好用的插件必须要支持起来.
-
 
 
 顺便贴下我的配置,有兴趣可以根据其介绍页面自己配置下.
 
 ```json
-// todo tree settings
-    "todo-tree.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS):|^\\s*- \\[ \\])",
-    "todo-tree.tags": [
+"todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS):|^\\s*- \\[ \\])",
+    "todo-tree.general.tags": [
         "TODO",
         "FIXME",
         "tag",
         "done",
         "note"
     ],
-    "todo-tree.regexCaseSensitive": false,
-    "todo-tree.showInExplorer": true,
-    "todo-tree.defaultHighlight": {
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.tree.showInExplorer": true,
+    "todo-tree.highlights.defaultHighlight": {
         "foreground": "white",
         "background": "yellow",
         "icon": "check",
@@ -54,7 +51,7 @@
         "type": "tag",
         "iconColour": "yellow"
     },
-    "todo-tree.customHighlight": {
+    "todo-tree.highlights.customHighlight": {
         "todo": {
             "background": "yellow",
             "rulerColour": "yellow",
@@ -85,7 +82,7 @@
             "rulerColour": "#f90",
             "iconColour ": "#f90"
         }
-    }
+    },
 ```
 
 
@@ -100,7 +97,9 @@
 
 
 
+# 更新
 
+2019/9/21 todo-tree 貌似大更新了次.更改了设置接口,还好没改多少.已经修改成新的了.详情看插件介绍页面.
 
 
 
